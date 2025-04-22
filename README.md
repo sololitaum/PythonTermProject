@@ -6,7 +6,9 @@ A deep learning image classifier that distinguishes between cats and dogs using 
 ## Solomiya Pylypiv
 Built and trained the model in cats_vs_dogs_classifier.py
 ### Commits
-- 
+- initial commit to create the repo
+- main.py which trains a deep learning model using the MobileNetV2 to classify images of cats and dogs from a TensorFlow dataset then visualizes the training results and saves the trained model
+- eval
 
 ## Joey Brinker
 Created the prediction and visualization script in predict_image.py
