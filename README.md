@@ -7,4 +7,4 @@ Solomiya Pylypiv – Built and trained the model in cats_vs_dogs_classifier.py
 
 Joey Brinker – Created the prediction and visualization script in predict_image.py
 
-Haneen Yahfoufi-
+Haneen Yahfoufi - Created the website/UI to test out the Image Classifier.
