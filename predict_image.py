@@ -3,11 +3,11 @@ import numpy as np
 
 IMG_SIZE = 160
 
-# Load the saved model
+# Load saved model
 model = keras.models.load_model('cats_vs_dogs_model.h5')
 
-# Load your image
-img_path = 'DogTest.jpg'  # 🔁 change this to your image filename
+# Load image
+img_path = 'DogTest.jpg'
 img = keras.utils.load_img(img_path, target_size=(IMG_SIZE, IMG_SIZE))
 img_array = keras.utils.img_to_array(img) / 255.0
 img_array = np.expand_dims(img_array, axis=0)
